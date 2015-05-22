@@ -1,0 +1,16 @@
+{
+  "name": "Dragon Wealth CSS Index",
+  "version": "0.0.1",
+  "main": "index.html",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "components",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "Materialize": "~0.96.1"
+  }
+}

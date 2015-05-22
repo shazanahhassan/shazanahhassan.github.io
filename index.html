@@ -1,0 +1,114 @@
+<html lang="en"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>
+Dragon Wealth CSS Index
+</title>
+<link rel="stylesheet" type="text/css" href="bower_components/Materialize/dist/css/materialize.css">
+  <link href="stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
+  <link href="stylesheets/print.css" media="print" rel="stylesheet" type="text/css" />
+  <!--[if IE]>
+      <link href="/stylesheets/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
+  <![endif]-->
+</head>
+
+<body class="front index">
+
+
+<section class="page-description">
+
+  <div class="container">
+
+    <h3>Dragon Wealth CSS Index and Style Guide</h3>
+
+    <div class="text">
+
+      <p>Hi everyone, and welcome to the new Dragon Wealth CSS Index and Style Guide! This guide is meant to help everyone construct lovely HTML for use in our applications and also as something to refer to when you need a particular look for something.</p>
+
+      <p>Here are the basic ground rules and standards for HTML that will have to be adhered to from now on during templating</p>
+
+      <div class="rules main-rules">
+
+      <h4> Rules </h4>
+
+        <dir>
+
+          <li><b>NO INLINE CSS</b></li>
+          <li>We will use the &lt;section&gt; tag to seperate out chunks of information</li>
+          <li>Every seperate page will have relevant classes in the &lt;body&gt; tag</li>
+          <li>Let's stay away from tables unless we absolutely have to use them</li>
+          <li>Please use tabs to nest your tags nicely</li>
+          <li>Please be descriptive in your div naming - <b>no stray divs without any classes</b></li>
+          <li>We should be <b>mobile first</b> so please use the Materialize grids</li>
+
+        </dir>
+
+      </div>
+
+      <div class="rules section-rules">
+
+      <h4> Rules for &lt;section&gt; </h4>
+
+        <dir>
+
+          <li><b>NO INLINE CSS</b></li>
+          <li>Every &lt;section&gt; should have one class as a unique description of its content</li>
+          <li>Every &lt;section&gt; should have a <i>container</i> class in it</li>
+          <li>Other classes should be reusable classes such as:
+            <dir>
+            <li>A component class (e.g. <i>card</i>)</li>
+            <li>A class for width or columns (e.g. <i>s4</i>)</li>
+            <li>A class for alignment override (e.g. <i>left-align</i>)</li>
+            <li>A class for background color/text color overrides (e.g. <i>dw-red</i>)</li>
+            </dir>
+          </li>
+
+          <li>The main heading should be &lt;h3&gt; and subsequent headings &lt;h4&gt; and &lt;h5&gt;</li>
+
+
+        </dir>
+
+        <h4>Here is an example of how a &lt;section&gt; should be structured</h4>
+        <p>I am using the current CloudAgent Dashboard 'Increase Sales' column as an example</p>
+
+        <div class="code-example">
+          <code><pre>
+          &lt;section class=&quot;increase-sales dashboard-box cards s12 m6&quot;&gt;
+            &lt;div class=&quot;container&quot;&gt;
+
+              &lt;div class=&quot;row&quot;&gt;
+
+                &lt;div class=&quot;heading&quot;&gt;&lt;h3&gt;Increase Sales&lt;/h3&gt;&lt;/div&gt;
+
+              &lt;/div&gt;
+
+              &lt;div class=&quot;row&quot;&gt;
+
+                &lt;div class=&quot;card s12&quot;&gt;
+
+                  &lt;div class=&quot;image&quot;&gt;
+                    Products matching your clients and prospects are still being identified
+                  &lt;/div&gt;
+
+                  &lt;div class=&quot;text&quot;&gt;
+                    Login to your dashboard tomorrow or add more clients and prospects to find a matching product
+                  &lt;/div&gt;
+
+                &lt;/div&gt;
+
+              &lt;/div&gt;
+
+            &lt;/div&gt;
+          &lt;/section&gt;
+          </pre></code>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+</body></html>
